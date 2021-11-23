@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+.fruits-counter-container {
+  background-color: #ffd569;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+
+.main-heading {
+  color: #000000;
+}
+
+.count {
+  color: #ffd569;
+}
+.fruit-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 50px;
+  height: 80vh;
+}
+.fruits-container {
+  display: flex;
+}
+
+.fruit-image {
+  max-width: 40%;
+}
+
+.fruit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fruit-button {
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .fruits-container {
+    flex-direction: column;
+  }
+}
